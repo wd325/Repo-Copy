@@ -3,7 +3,7 @@ project:
   output-dir: docs   # or _site if that’s what you’re using
 
 website:
-  title: "Raptor Liquidity"
+  title: "Raptor"
   navbar:
     left:
       - href: index.qmd
