@@ -1,12 +1,17 @@
 project:
-type: website
+  type: website
+
 website:
-title: "My Website"
-navbar:
-left: I href: index. and
-text: Home
-- about. qmd
-html:
-theme:cosmo
-ess: styles.css
-toc: true
+  title: "My Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
