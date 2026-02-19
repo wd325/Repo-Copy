@@ -1,18 +1,21 @@
 project:
   type: website
-  output-dir: docs   # or _site if that’s what you’re using
+  output-dir: docs
 
 website:
   title: "Raptor"
   navbar:
+    background: "#0a0e1a"
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
+  page-footer:
+    center: "© 2026 Raptor Liquidity. All rights reserved."
 
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: styles.css
-    toc: true
+    toc: false

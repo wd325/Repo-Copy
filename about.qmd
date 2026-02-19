@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+## About Raptor Liquidity
+
+Raptor Liquidity is a quantitative trading firm focused on systematic strategies across global markets. We combine rigorous research with cutting-edge technology to identify and capture market opportunities.
+
+## Our Approach
+
+Our team leverages advanced statistical models, machine learning, and high-performance computing to stay ahead in an ever-evolving market landscape. Every decision is driven by data, validated by research, and executed with precision.

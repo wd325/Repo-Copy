@@ -1,3 +1,25 @@
+---
+title: "Raptor Liquidity"
+---
+
+::: {.hero-banner}
+::: {.hero-content}
 # Raptor Liquidity
 
-Hunting opportunity, with cutting-edge quantitative trading technology.
+::: {.slogan}
+Cutting-edge quantitative trading technology — hunting opportunity at the speed of light.
+:::
+:::
+:::
+
+::: {.section-block}
+## What We Do
+
+We deploy systematic, data-driven strategies across global markets. Our proprietary models identify dislocations in real time, executing with precision and discipline.
+:::
+
+::: {.section-block}
+## Our Edge
+
+Deep quantitative research, robust infrastructure, and relentless focus on risk management set us apart. Speed, accuracy, and adaptability are at the core of everything we build.
+:::

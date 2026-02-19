@@ -1,9 +1,44 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Raptor Liquidity is a quantitative trading firm focused on systematic strategies across global markets. We combine rigorous research with cutting-edge technology to identify and capture market opportunities."
+  },
+  {
+    "objectID": "about.html#about-raptor-liquidity",
+    "href": "about.html#about-raptor-liquidity",
+    "title": "About",
+    "section": "",
+    "text": "Raptor Liquidity is a quantitative trading firm focused on systematic strategies across global markets. We combine rigorous research with cutting-edge technology to identify and capture market opportunities."
+  },
+  {
+    "objectID": "about.html#our-approach",
+    "href": "about.html#our-approach",
+    "title": "About",
+    "section": "Our Approach",
+    "text": "Our Approach\nOur team leverages advanced statistical models, machine learning, and high-performance computing to stay ahead in an ever-evolving market landscape. Every decision is driven by data, validated by research, and executed with precision."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Raptor Liquidity",
     "section": "",
-    "text": "Raptor Liquidity\nHunting opportunity, with cutting-edge quantitative trading technology."
+    "text": "Cutting-edge quantitative trading technology — hunting opportunity at the speed of light."
+  },
+  {
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "Raptor Liquidity",
+    "section": "What We Do",
+    "text": "What We Do\nWe deploy systematic, data-driven strategies across global markets. Our proprietary models identify dislocations in real time, executing with precision and discipline."
+  },
+  {
+    "objectID": "index.html#our-edge",
+    "href": "index.html#our-edge",
+    "title": "Raptor Liquidity",
+    "section": "Our Edge",
+    "text": "Our Edge\nDeep quantitative research, robust infrastructure, and relentless focus on risk management set us apart. Speed, accuracy, and adaptability are at the core of everything we build."
   }
 ]
