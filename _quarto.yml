@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: docs   # or _site if that’s what you’re using
 
 website:
   title: "Raptor Liquidity"
