@@ -1,0 +1,12 @@
+project:
+type: website
+website:
+title: "My Website"
+navbar:
+left: I href: index. and
+text: Home
+- about. qmd
+html:
+theme:cosmo
+ess: styles.css
+toc: true
