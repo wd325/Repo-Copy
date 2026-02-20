@@ -1,8 +1,8 @@
-name: Publish Quarto Site
+name: Python + Quarto Site
 
 on:
   push:
-    branches: main
+    branches: [main]
 
 jobs:
   build-deploy:
@@ -14,17 +14,42 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout repo
+      # 1️⃣ Checkout the repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2️⃣ Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      # 3️⃣ Install Python dependencies
+      - name: Install dependencies
+        run: |
+          pip install notebook
+          pip install -r requirements.txt  # optional
+
+      # 4️⃣ Run Python script
+      - name: Run Python script
+        run: python your_script.py
+
+      # 5️⃣ Execute Jupyter notebook
+      - name: Run Jupyter notebook
+        run: jupyter nbconvert --to notebook --execute your_notebook.ipynb
+
+      # 6️⃣ Setup Quarto
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render site
+      # 7️⃣ Render site
+      - name: Render Quarto site
         run: quarto render
 
-      - name: Publish
+      # 8️⃣ Publish site
+      - name: Publish Quarto site
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
           render: true
+
